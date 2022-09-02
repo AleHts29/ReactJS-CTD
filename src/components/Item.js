@@ -31,6 +31,9 @@ export default function Item({ product, stock, event }) {
 
   return (
     < div className='producto' >
+      <div className='divImg'>
+        <img src={product.img} alt={product.nombre}></img>
+      </div>
       <h3>{product.nombre}</h3>
       <p>{product.descripcion}</p>
       <h5>En Stock {stockItems > 0 ? stockItems : <span>{"Agotado"}</span>}</h5>

@@ -10,12 +10,14 @@ import React from 'react'
 
 export default function Cabecera({ coutItem }) {
 
+
+
   return (
     <header>
       {/* maquetar Cabecera aquí */}
       <h1>Carrito de compras</h1>
       <p>
-        Cantidad de productos  <span>{coutItem}</span>
+        Cantidad de productos {coutItem > 0 ? <span>{coutItem}</span> : null}
       </p>
     </header>
   )

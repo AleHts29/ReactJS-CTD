@@ -1,8 +1,9 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,12 +17,13 @@ header {
   background-color: #ddd;
   padding: 20px 40px;
 }
-header h1{
+
+header h1 {
   margin-bottom: 10px;
 }
 
 header p span {
-  background-color: black;
+  background-color: rgb(220, 59, 59);
   color: white;
   padding: 3px 5px;
   border-radius: 5px;
@@ -45,21 +47,28 @@ header p span {
   gap: 10px;
 }
 
-.producto img{
-  width: 200px;
+.producto img {
+  width: 100%;
 }
-.producto h5{
+
+.producto .divImg {
+  height: 120%;
+  margin-bottom: 2rem;
+}
+
+.producto h5 {
   text-align: center;
 }
 
-.producto h5 span{
+.producto h5 span {
   background-color: rgb(255, 178, 178);
   padding: 3px;
   font-weight: lighter;
   color: rgb(155, 0, 0);
   border-radius: 3px;
 }
-.producto button{
+
+.producto button {
   padding: 5px;
   text-transform: uppercase;
 }
